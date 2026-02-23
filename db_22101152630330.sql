@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `irfan` (
   `id_barang` int unsigned NOT NULL AUTO_INCREMENT,
   `barang` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
   PRIMARY KEY (`id_barang`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='tabel barang';
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='tabel barang';
 
 -- Membuang data untuk tabel db_22101152630330.irfan: ~10 rows (lebih kurang)
 INSERT INTO `irfan` (`id_barang`, `barang`) VALUES
@@ -96,3 +96,4 @@ INSERT INTO `kurniawan` (`id_penjualan`, `id_barang`, `jumlah`, `tgl_penjualan`)
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+
