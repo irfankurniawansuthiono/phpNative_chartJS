@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `kurniawan` (
   `jumlah` int DEFAULT NULL,
   `tgl_penjualan` date DEFAULT NULL,
   PRIMARY KEY (`id_penjualan`)
-) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='tabel penjualan';
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='tabel penjualan';
 
 -- Membuang data untuk tabel db_22101152630330.kurniawan: ~40 rows (lebih kurang)
 INSERT INTO `kurniawan` (`id_penjualan`, `id_barang`, `jumlah`, `tgl_penjualan`) VALUES
@@ -96,4 +96,5 @@ INSERT INTO `kurniawan` (`id_penjualan`, `id_barang`, `jumlah`, `tgl_penjualan`)
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+
 
